@@ -2,7 +2,7 @@ import React from "react";
 import { PORTFOLIO_DATA } from "../constants/data";
 
 // Images import kar lijiye (path apne folder structure ke hisaab se check kar lena)
-import mainImg from "../constants/images/sawan.png";
+import mainImg from "../constants/images/suresh.png";
 import crBig from "../constants/images/cr-big.png";
 import crSmall from "../constants/images/cr-small.png";
 import ResumePdf from "../constants/resume-pdf/resume.pdf";

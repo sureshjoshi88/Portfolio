@@ -6,39 +6,39 @@ import dvgImg from "../constants/images/dvg.png";
 
 export const PORTFOLIO_DATA = {
   personalInfo: {
-    name: "Sawan Kumar Yadav",
-    role: "Frontend Developer",
-    phone: "+91 9636447793",
-    email: "savanyadav377@gmail.com",
-    address: "Vill. Bhojyara Th. Chaksu, Jaipur (Raj) 303903",
-    experienceYears: "2+",
-    aboutText: "I am a frontend developer specializing in HTML5, CSS3, Bootstrap 5, and Tailwind CSS for creating modern, responsive web designs. I am proficient in JavaScript and React.js, developing dynamic and interactive user interfaces. Currently, I am advancing my skills by working with the MERN Stack. Over the past months, I have been actively contributing to React-based projects, gaining valuable hands-on experience in building scalable enterprise applications."
+    name: "Suresh Joshi",
+    role: "MERN Stack Developer",
+    phone: "+91 8824365208",
+    email: "joshisuresh123u@gmail.com",
+    address: "dudu, Jaipur (Raj) 303008",
+    experienceYears: "1+",
+    aboutText: "Full Stack MERN Developer with 1 year of experience in frontend and backend development using React.js, Node.js, Express.js, and MongoDB. Skilled in building responsive UI, REST APIs, authentication, RBAC, CRUD operations, state management with  Redux, and database management. Experienced with Tailwind CSS, TanStack Query, and reusable component architecture. Strong  understanding of full-stack web application development, performance optimization, and clean code practices."
   },
   socialLinks: [
-    { icon: "fa-brands fa-github", url: "https://github.com/raosavan96" },
-    { icon: "fa-brands fa-linkedin-in", url: "https://www.linkedin.com/in/savan-yadav-47607a272/" },
-    { icon: "fa-brands fa-whatsapp", url: "https://wa.me/9636447793" },
+    { icon: "fa-brands fa-github", url: "https://github.com/sureshjoshi88" },
+    { icon: "fa-brands fa-linkedin-in", url: "https://www.linkedin.com/in/suresh-joshi-17a886314/" },
+    { icon: "fa-brands fa-whatsapp", url: "https://wa.me/8824365208" },
   ],
   skills: [
     // Core & Frameworks
-    { name: "Next.js", icon: "bx bx-code-alt" },
+    // { name: "Next.js", icon: "bx bx-code-alt" },
     { name: "ReactJs", icon: "fa-brands fa-react" },
-    { name: "React Native", icon: "fa-brands fa-react" },
+    // { name: "React Native", icon: "fa-brands fa-react" },
     { name: "TypeScript", icon: "bx bxl-typescript" },
     { name: "JavaScript", icon: "fa-brands fa-js" },
     { name: "NodeJs", icon: "fa-brands fa-node" },
-    
+
     // State Management & Data Fetching
     { name: "Redux Toolkit", icon: "bx bx-data" },
     { name: "Context API", icon: "bx bx-network-chart" },
     { name: "TanStack", icon: "bx bx-layer" },
-    
+
     // Databases & Tools
     { name: "PostgreSQL", icon: "bx bxl-postgresql" },
     { name: "Mongo DB", icon: "cib-mongodb" },
     { name: "DataTables", icon: "bx bx-table" },
-    { name: "GIS Maps", icon: "bx bx-map-alt" },
-    
+    // { name: "GIS Maps", icon: "bx bx-map-alt" },
+
     // UI & Styling
     { name: "Tailwind CSS", icon: "bx bxl-tailwind-css" },
     { name: "Shadcn UI", icon: "bx bx-layout" },
@@ -48,14 +48,14 @@ export const PORTFOLIO_DATA = {
   ],
   experience: [
     {
-      year: "June 2024 - Present", 
-      role: "Mern Stack Developer",
-      company: "Book Tech Labs"
+      year: "January 2026 - Present",
+      role: "MERN Stack Developer",
+      company: "DVG Soft"
     },
     {
-      year: "June 2023 - June 2024",
+      year: "july 2025 - December 2025",
       role: "Frontend Developer",
-      company: "DVG Soft"
+      company: "RNS It Solution"
     }
   ],
   projects: [
