@@ -1,8 +1,7 @@
-import mainImg from "../constants/images/sawan.png";
-import pmImg from "../constants/images/pm-project.png";
-import raoEshop from "../constants/images/rao_eshop.png";
-import portfilioIMg from "../constants/images/portfilio.png";
-import dvgImg from "../constants/images/dvg.png";
+import pmImg from "../constants/images/pm-system.png";
+import salon from "../constants/images/salon.png";
+import school from "../constants/images/school.png";
+// import dvgImg from "../constants/images/dvg.png";
 
 export const PORTFOLIO_DATA = {
   personalInfo: {
@@ -61,30 +60,30 @@ export const PORTFOLIO_DATA = {
   projects: [
     {
       id: "01",
-      title: "Endureva PM",
-      desc: "A full-featured project management application developed using React.js, Redux, Context API, and Tailwind CSS. Facilitates efficient project tracking, task management, and role-based access control.",
-      tech: "React Js, Tailwind, Redux, Node.js",
+      title: "PM System (project management)",
+      desc: "Built a responsive and scalable web app using React.js, shadcn/ ui, and TanStack Query. eveloped reusable components and dynamic tables for projects, tasks, and user management. mplemented RBAC, authentication, and protected routes for secure access. ntegrated RESTful APIs, CRUD operations, and server-state caching for efficient data handling. mproved performance, validation, and overall user experience with clean architecture.",
+      tech: "React Js, Tailwind, ShadeCN Redux, TanStack Query,  Node.js, Express.js, Socket.io, FCM, PostgreSQL",
       img: pmImg,
-      liveUrl: "https://pm.endurevadev.online/",
+      liveUrl: "https://projects.endureva.cloud/",
       githubUrl: null
     },
     {
       id: "02",
-      title: "Rao_e_shop",
-      desc: "A full-stack MERN e-commerce web application designed for seamless shopping and efficient admin management, featuring user authentication, cart functionality, and product filtering.",
-      tech: "MERN Stack, Redux Toolkit, Tailwind CSS",
-      img: raoEshop,
-      liveUrl: "https://rao-e-shop.vercel.app/",
+      title: "SalonSphere – Role-Based Salon Management System (Frontend)",
+      desc: "Developed a scalable multi-tenant salon management platform using React.js, Redux Toolkit, and Tailwind CSS. Implemented Role-Based Access Control (RBAC) with separate dashboards for Super Admin, Salon Owner, and Customers. Built JWT authentication, protected routes, and dynamic permission-based UI rendering. Enabled Super Admin to manage salon owners, while salon owners could manage services, bookings, staff, and customer data. Integrated RESTful APIs for CRUD operations, real-time state management, and seamless frontend-backend communication. Created reusable and responsive UI components to improve scalability and maintainability. Improved user experience with form validation, error handling, loading states, and optimized performance. Short Version (Resume Friendly) SalonSphere – Salon Management System Built a role-based salon management platform using React.js, Redux Toolkit, and Tailwind CSS. Implemented JWT authentication, RBAC, protected routes, and multi-role dashboards. Integrated REST APIs for salon, service, booking, and customer management. Developed reusable responsive components with optimized UX and state management. Thoda Advanced & Premium Version (Portfolio/LinkedIn) SalonHub Pro – Multi-Tenant Salon SaaS Platform Engineered a modern B2B salon management SaaS frontend where Super Admins manage salon businesses and salon owners manage daily operations. Developed secure authentication and authorization flows using JWT and role-based routing. Designed dashboards for salon analytics, service management, customer handling, and appointment workflows. Built modular reusable architecture using React.js, Redux Toolkit, and Tailwind CSS for better scalability. Optimized application performance and responsiveness across devices with efficient state handling and lazy rendering techniques. Tech Stack Section Tech Stack: React.js, Redux Toolkit, Tailwind CSS, JavaScript, REST API, JWT Authentication, RBAC, Responsive Design, CRUD Operations, React Router DOM Ye project kaafi strong lag raha hai dost, especially kyuki isme: RBAC Multi-role system JWT auth CRUD Dashboard SaaS/B2B concept ye sab industry-level features hain 👍",
+      tech: "React.js, Redux Toolkit, Tailwind CSS",
+      img: salon,
+      liveUrl: "https://salon-web-self.vercel.app/",
       githubUrl: null
     },
     {
       id: "03",
-      title: "My Portfolio",
-      desc: "Dynamic single-page web application using React.js, Tailwind CSS, and optimized component architecture.",
-      tech: "React Js, Tailwind, JavaScript",
-      img: portfilioIMg,
-      liveUrl: "https://new-portfolio-xi-navy.vercel.app/",
-      githubUrl: "https://github.com/raosavan96/New-Portfolio.git"
+      title: "School Management System (Backend)",
+      desc: "Developed a secure and scalable backend using Node.js and Express.js to manage students, teachers, and records.  Implemented JWT authentication and RBAC authorization for role-based access control.  Designed MongoDB schemas and relationships for structured data management.  Built RESTful APIs with CRUD operations, validation, and business logic. Ensured security, performance optimization, and API testing using Postman and Git/ GitHub..",
+      tech: " Node.js, Express.js, Socket.io, MongoDB",
+      img: school,
+      liveUrl: "https://adminv2-dev.intellix360.in/",
+      githubUrl: null
     }
   ]
 };
